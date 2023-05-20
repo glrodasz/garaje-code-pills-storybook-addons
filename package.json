@@ -1,0 +1,40 @@
+{
+  "name": "garaje-code-pills-storybook-addons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@etchteam/storybook-addon-status": "^4.2.4",
+    "i18next": "^22.5.0",
+    "i18next-browser-languagedetector": "^7.0.1",
+    "i18next-http-backend": "^2.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.3.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "^7.0.12",
+    "@storybook/addon-essentials": "^7.0.12",
+    "@storybook/addon-interactions": "^7.0.12",
+    "@storybook/addon-links": "^7.0.12",
+    "@storybook/addon-styling": "^1.0.0-next.2",
+    "@storybook/blocks": "^7.0.12",
+    "@storybook/jest": "^0.1.0",
+    "@storybook/react": "^7.0.12",
+    "@storybook/react-vite": "^7.0.12",
+    "@storybook/testing-library": "^0.1.0",
+    "msw": "^1.2.1",
+    "msw-storybook-addon": "^1.8.0",
+    "prop-types": "^15.8.1",
+    "storybook": "^7.0.12",
+    "storybook-addon-designs": "^7.0.0-beta.2",
+    "vite": "^4.3.8"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
