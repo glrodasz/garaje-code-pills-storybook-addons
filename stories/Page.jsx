@@ -1,21 +1,21 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import useAuth from "../hooks/useAuth";
 
 import { Header } from "./Header";
 import "./page.css";
 
-
 export const Page = () => {
-  const [user, setUser] = React.useState();
+  const { user, login, logout } = useAuth();
   const { t } = useTranslation();
 
   return (
     <article>
       <Header
         user={user}
-        onLogin={() => setUser({ name: "Jane Doe" })}
-        onLogout={() => setUser(undefined)}
-        onCreateAccount={() => setUser({ name: "Jane Doe" })}
+        onLogin={async () => await login()}
+        onLogout={async () => await logout()}
+        onCreateAccount={async () => await login()}
       />
 
       <section className="storybook-page">
