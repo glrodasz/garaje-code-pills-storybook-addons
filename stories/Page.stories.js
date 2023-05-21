@@ -4,11 +4,10 @@ import { rest } from "msw";
 import { Page } from "./Page";
 
 function delay(time) {
-  return new Promise(function(resolve) { 
-    setTimeout(resolve, time)
+  return new Promise(function (resolve) {
+    setTimeout(resolve, time);
   });
 }
-
 
 export default {
   title: "Example/Page",

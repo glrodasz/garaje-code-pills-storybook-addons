@@ -12,6 +12,10 @@ export default {
     status: {
       type: "released",
     },
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/LzesS42FgRZTqHUUCGCysi/Untitled?type=design&node-id=1%3A2&t=uFpUfQjAM1TiWWJW-1",
+    }
   },
 };
 

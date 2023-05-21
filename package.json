@@ -4,7 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@etchteam/storybook-addon-status": "^4.2.4",
     "i18next": "^22.5.0",
     "i18next-browser-languagedetector": "^7.0.1",
     "i18next-http-backend": "^2.2.1",
@@ -28,6 +27,7 @@
     "prop-types": "^15.8.1",
     "storybook": "^7.0.12",
     "storybook-addon-designs": "^7.0.0-beta.2",
+    "@etchteam/storybook-addon-status": "^4.2.4",
     "vite": "^4.3.8"
   },
   "scripts": {
